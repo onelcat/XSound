@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5A3F1BE6B2D202EF8A2AFE /* libPods-XSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581823E12DEED1EF665243EB /* libPods-XSound.a */; };
+		84A9229EC45C58D464998717 /* libPods-XSoundUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB715B35A293248BAAAFEDCC /* libPods-XSoundUITests.a */; };
 		A8BEED3C1EE152F8002BAFFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BEED3B1EE152F8002BAFFE /* main.m */; };
 		A8BEED3F1EE152F8002BAFFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BEED3E1EE152F8002BAFFE /* AppDelegate.m */; };
 		A8BEED421EE152F8002BAFFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BEED411EE152F8002BAFFE /* ViewController.m */; };
@@ -15,6 +17,18 @@
 		A8BEED4A1EE152F8002BAFFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BEED481EE152F8002BAFFE /* LaunchScreen.storyboard */; };
 		A8BEED551EE152F8002BAFFE /* XSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BEED541EE152F8002BAFFE /* XSoundTests.m */; };
 		A8BEED601EE152F8002BAFFE /* XSoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BEED5F1EE152F8002BAFFE /* XSoundUITests.m */; };
+		A8C2FD131EEFBD8A009E7651 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2FD121EEFBD8A009E7651 /* PlayView.m */; };
+		A8C2FD151EF12DD6009E7651 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD141EF12DD6009E7651 /* rain.mp3 */; };
+		A8C2FD171EF12E0A009E7651 /* thunderstorm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD161EF12E0A009E7651 /* thunderstorm.mp3 */; };
+		A8C2FD1B1EF14249009E7651 /* train.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD1A1EF14249009E7651 /* train.mp3 */; };
+		A8C2FD211EF266E5009E7651 /* summernight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD201EF266E5009E7651 /* summernight.mp3 */; };
+		A8C2FD231EF26A29009E7651 /* pinknoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD221EF26A29009E7651 /* pinknoise.mp3 */; };
+		A8C2FD251EF27064009E7651 /* whitenoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD241EF27064009E7651 /* whitenoise.wav */; };
+		A8C2FD271EF2706A009E7651 /* pinknoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD261EF2706A009E7651 /* pinknoise.wav */; };
+		A8C2FD291EF27499009E7651 /* brownnoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD281EF27499009E7651 /* brownnoise.wav */; };
+		A8C2FD2B1EF27BC2009E7651 /* seaside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD2A1EF27BC2009E7651 /* seaside.mp3 */; };
+		A8C2FD2D1EF27C51009E7651 /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C2FD2C1EF27C51009E7651 /* fire.mp3 */; };
+		D4A1A316749E8AA8AD04204C /* libPods-XSoundTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C1DB3BF1174FFDA6E0E0F /* libPods-XSoundTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10929C745E622A1FE90095BD /* Pods-XSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSound/Pods-XSound.debug.xcconfig"; sourceTree = "<group>"; };
+		1DFAE8A289F6C45B6503D004 /* Pods-XSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSound.release.xcconfig"; path = "Pods/Target Support Files/Pods-XSound/Pods-XSound.release.xcconfig"; sourceTree = "<group>"; };
+		544AC317BFF96E72C58B9276 /* Pods-XSoundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSoundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSoundTests/Pods-XSoundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		581823E12DEED1EF665243EB /* libPods-XSound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XSound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECB3B51BFDE313178787BD4 /* Pods-XSoundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSoundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSoundUITests/Pods-XSoundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A38332CD1C189927D69962BC /* Pods-XSoundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSoundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XSoundTests/Pods-XSoundTests.release.xcconfig"; sourceTree = "<group>"; };
 		A8BEED371EE152F8002BAFFE /* XSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BEED3B1EE152F8002BAFFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8BEED3D1EE152F8002BAFFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,21 @@
 		A8BEED5B1EE152F8002BAFFE /* XSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BEED5F1EE152F8002BAFFE /* XSoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSoundUITests.m; sourceTree = "<group>"; };
 		A8BEED611EE152F8002BAFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C2FD111EEFBD8A009E7651 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		A8C2FD121EEFBD8A009E7651 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+		A8C2FD141EF12DD6009E7651 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		A8C2FD161EF12E0A009E7651 /* thunderstorm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunderstorm.mp3; sourceTree = "<group>"; };
+		A8C2FD1A1EF14249009E7651 /* train.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = train.mp3; sourceTree = "<group>"; };
+		A8C2FD201EF266E5009E7651 /* summernight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = summernight.mp3; sourceTree = "<group>"; };
+		A8C2FD221EF26A29009E7651 /* pinknoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pinknoise.mp3; sourceTree = "<group>"; };
+		A8C2FD241EF27064009E7651 /* whitenoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whitenoise.wav; sourceTree = "<group>"; };
+		A8C2FD261EF2706A009E7651 /* pinknoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pinknoise.wav; sourceTree = "<group>"; };
+		A8C2FD281EF27499009E7651 /* brownnoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = brownnoise.wav; sourceTree = "<group>"; };
+		A8C2FD2A1EF27BC2009E7651 /* seaside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seaside.mp3; sourceTree = "<group>"; };
+		A8C2FD2C1EF27C51009E7651 /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
+		BB0C1DB3BF1174FFDA6E0E0F /* libPods-XSoundTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XSoundTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB715B35A293248BAAAFEDCC /* libPods-XSoundUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XSoundUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A1C7EAAA9B5C1B7C01CDD0 /* Pods-XSoundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSoundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XSoundUITests/Pods-XSoundUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5A3F1BE6B2D202EF8A2AFE /* libPods-XSound.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A1A316749E8AA8AD04204C /* libPods-XSoundTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +109,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A9229EC45C58D464998717 /* libPods-XSoundUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6372743D03BC9CE9534BC4EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10929C745E622A1FE90095BD /* Pods-XSound.debug.xcconfig */,
+				1DFAE8A289F6C45B6503D004 /* Pods-XSound.release.xcconfig */,
+				544AC317BFF96E72C58B9276 /* Pods-XSoundTests.debug.xcconfig */,
+				A38332CD1C189927D69962BC /* Pods-XSoundTests.release.xcconfig */,
+				5ECB3B51BFDE313178787BD4 /* Pods-XSoundUITests.debug.xcconfig */,
+				C2A1C7EAAA9B5C1B7C01CDD0 /* Pods-XSoundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8BEED2E1EE152F8002BAFFE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +136,8 @@
 				A8BEED531EE152F8002BAFFE /* XSoundTests */,
 				A8BEED5E1EE152F8002BAFFE /* XSoundUITests */,
 				A8BEED381EE152F8002BAFFE /* Products */,
+				6372743D03BC9CE9534BC4EF /* Pods */,
+				CB3C713EBFA9F5940D46DEF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +158,18 @@
 				A8BEED3E1EE152F8002BAFFE /* AppDelegate.m */,
 				A8BEED401EE152F8002BAFFE /* ViewController.h */,
 				A8BEED411EE152F8002BAFFE /* ViewController.m */,
+				A8C2FD111EEFBD8A009E7651 /* PlayView.h */,
+				A8C2FD121EEFBD8A009E7651 /* PlayView.m */,
+				A8C2FD1A1EF14249009E7651 /* train.mp3 */,
+				A8C2FD281EF27499009E7651 /* brownnoise.wav */,
+				A8C2FD2C1EF27C51009E7651 /* fire.mp3 */,
+				A8C2FD2A1EF27BC2009E7651 /* seaside.mp3 */,
+				A8C2FD261EF2706A009E7651 /* pinknoise.wav */,
+				A8C2FD141EF12DD6009E7651 /* rain.mp3 */,
+				A8C2FD221EF26A29009E7651 /* pinknoise.mp3 */,
+				A8C2FD161EF12E0A009E7651 /* thunderstorm.mp3 */,
+				A8C2FD241EF27064009E7651 /* whitenoise.wav */,
+				A8C2FD201EF266E5009E7651 /* summernight.mp3 */,
 				A8BEED431EE152F8002BAFFE /* Main.storyboard */,
 				A8BEED461EE152F8002BAFFE /* Assets.xcassets */,
 				A8BEED481EE152F8002BAFFE /* LaunchScreen.storyboard */,
@@ -140,6 +205,16 @@
 			path = XSoundUITests;
 			sourceTree = "<group>";
 		};
+		CB3C713EBFA9F5940D46DEF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				581823E12DEED1EF665243EB /* libPods-XSound.a */,
+				BB0C1DB3BF1174FFDA6E0E0F /* libPods-XSoundTests.a */,
+				BB715B35A293248BAAAFEDCC /* libPods-XSoundUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8BEED641EE152F8002BAFFE /* Build configuration list for PBXNativeTarget "XSound" */;
 			buildPhases = (
+				6D1EDD3811E90B79FE0ADE75 /* [CP] Check Pods Manifest.lock */,
 				A8BEED331EE152F8002BAFFE /* Sources */,
 				A8BEED341EE152F8002BAFFE /* Frameworks */,
 				A8BEED351EE152F8002BAFFE /* Resources */,
+				BD85AEB0E75E7431858090B7 /* [CP] Embed Pods Frameworks */,
+				A20B04CF1BC862C21FC7AE8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8BEED671EE152F8002BAFFE /* Build configuration list for PBXNativeTarget "XSoundTests" */;
 			buildPhases = (
+				786D22E091862D6CB8AD4074 /* [CP] Check Pods Manifest.lock */,
 				A8BEED4C1EE152F8002BAFFE /* Sources */,
 				A8BEED4D1EE152F8002BAFFE /* Frameworks */,
 				A8BEED4E1EE152F8002BAFFE /* Resources */,
+				B75C899BD97668AB52E5C6DF /* [CP] Embed Pods Frameworks */,
+				C938EA827CA6E3BF42445F69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8BEED6A1EE152F8002BAFFE /* Build configuration list for PBXNativeTarget "XSoundUITests" */;
 			buildPhases = (
+				ACC7838E315F92F82FF961A5 /* [CP] Check Pods Manifest.lock */,
 				A8BEED571EE152F8002BAFFE /* Sources */,
 				A8BEED581EE152F8002BAFFE /* Frameworks */,
 				A8BEED591EE152F8002BAFFE /* Resources */,
+				A3596E55871BE397909E989F /* [CP] Embed Pods Frameworks */,
+				33A840309D44D1F49B889FCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +333,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C2FD151EF12DD6009E7651 /* rain.mp3 in Resources */,
 				A8BEED4A1EE152F8002BAFFE /* LaunchScreen.storyboard in Resources */,
+				A8C2FD211EF266E5009E7651 /* summernight.mp3 in Resources */,
+				A8C2FD171EF12E0A009E7651 /* thunderstorm.mp3 in Resources */,
+				A8C2FD271EF2706A009E7651 /* pinknoise.wav in Resources */,
 				A8BEED471EE152F8002BAFFE /* Assets.xcassets in Resources */,
+				A8C2FD291EF27499009E7651 /* brownnoise.wav in Resources */,
 				A8BEED451EE152F8002BAFFE /* Main.storyboard in Resources */,
+				A8C2FD2D1EF27C51009E7651 /* fire.mp3 in Resources */,
+				A8C2FD1B1EF14249009E7651 /* train.mp3 in Resources */,
+				A8C2FD231EF26A29009E7651 /* pinknoise.mp3 in Resources */,
+				A8C2FD251EF27064009E7651 /* whitenoise.wav in Resources */,
+				A8C2FD2B1EF27BC2009E7651 /* seaside.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +365,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33A840309D44D1F49B889FCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XSoundUITests/Pods-XSoundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D1EDD3811E90B79FE0ADE75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		786D22E091862D6CB8AD4074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A20B04CF1BC862C21FC7AE8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XSound/Pods-XSound-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3596E55871BE397909E989F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XSoundUITests/Pods-XSoundUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC7838E315F92F82FF961A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B75C899BD97668AB52E5C6DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XSoundTests/Pods-XSoundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD85AEB0E75E7431858090B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XSound/Pods-XSound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C938EA827CA6E3BF42445F69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XSoundTests/Pods-XSoundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8BEED331EE152F8002BAFFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +510,7 @@
 			files = (
 				A8BEED421EE152F8002BAFFE /* ViewController.m in Sources */,
 				A8BEED3F1EE152F8002BAFFE /* AppDelegate.m in Sources */,
+				A8C2FD131EEFBD8A009E7651 /* PlayView.m in Sources */,
 				A8BEED3C1EE152F8002BAFFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +658,7 @@
 		};
 		A8BEED651EE152F8002BAFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10929C745E622A1FE90095BD /* Pods-XSound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U4TQF545XN;
@@ -437,6 +671,7 @@
 		};
 		A8BEED661EE152F8002BAFFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFAE8A289F6C45B6503D004 /* Pods-XSound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U4TQF545XN;
@@ -449,6 +684,7 @@
 		};
 		A8BEED681EE152F8002BAFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544AC317BFF96E72C58B9276 /* Pods-XSoundTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = U4TQF545XN;
@@ -462,6 +698,7 @@
 		};
 		A8BEED691EE152F8002BAFFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38332CD1C189927D69962BC /* Pods-XSoundTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = U4TQF545XN;
@@ -475,6 +712,7 @@
 		};
 		A8BEED6B1EE152F8002BAFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECB3B51BFDE313178787BD4 /* Pods-XSoundUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U4TQF545XN;
 				INFOPLIST_FILE = XSoundUITests/Info.plist;
@@ -487,6 +725,7 @@
 		};
 		A8BEED6C1EE152F8002BAFFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A1C7EAAA9B5C1B7C01CDD0 /* Pods-XSoundUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U4TQF545XN;
 				INFOPLIST_FILE = XSoundUITests/Info.plist;
@@ -516,6 +755,7 @@
 				A8BEED661EE152F8002BAFFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8BEED671EE152F8002BAFFE /* Build configuration list for PBXNativeTarget "XSoundTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +764,7 @@
 				A8BEED691EE152F8002BAFFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8BEED6A1EE152F8002BAFFE /* Build configuration list for PBXNativeTarget "XSoundUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +773,7 @@
 				A8BEED6C1EE152F8002BAFFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
