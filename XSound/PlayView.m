@@ -83,6 +83,7 @@
             make.right.equalTo(self);
             make.width.equalTo(self);
         }];
+        
         [_soundSlider setHidden:YES];
         
     }
