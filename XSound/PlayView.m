@@ -43,6 +43,8 @@
         _player.rate = 1.0;
         _player.numberOfLoops = -1;
         [_player prepareToPlay];
+//        self.backgroundColor = [UIColor whiteColor];
+//        [[self layer] setCornerRadius:10];
         
         UITapGestureRecognizer *tag1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(isSelectView:)];
         
